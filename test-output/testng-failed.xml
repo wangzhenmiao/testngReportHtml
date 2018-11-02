@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="testngReportHtml(failed)">
+    <classes>
+      <class name="com.miao.TestDemo">
+        <methods>
+          <include name="testDemo"/>
+          <include name="testDemo1"/>
+          <include name="testDemo2" invocation-numbers="1"/>
+          <include name="testDemo3"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.miao.TestDemo -->
+    </classes>
+  </test> <!-- testngReportHtml(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
