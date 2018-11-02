@@ -58,7 +58,7 @@ public class TestReport implements IReporter {
     public TestReport(){
         SimpleDateFormat formatter = new SimpleDateFormat ("yyyyMMddHHmmssSSS");
 //        name = formatter.format(System.currentTimeMillis());
-        //用例名称1
+        //用例名称g
         name = "miao的测试用例";
     }
 
